@@ -1,0 +1,19 @@
+//
+//  SwiftStaticLibrary.pch
+//  SwiftStaticLibrary
+//
+//  Created by David Flores on 4/17/16.
+//  Copyright © 2016 David Flores. All rights reserved.
+//
+
+#ifndef SwiftStaticLibrary_pch
+#define SwiftStaticLibrary_pch
+
+#if defined(__OBJC__)
+#   import <AppKit/AppKit.h>
+#   import <objc/objc-runtime.h>
+#endif
+
+#include <dlfcn.h>
+
+#endif
