@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		B3BA13A11CC363DD003D6968 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BA13A01CC363DD003D6968 /* AppKit.framework */; };
 		B3BA13A31CC363DD003D6968 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BA13A21CC363DD003D6968 /* Foundation.framework */; };
-		B3BA13A71CC363DD003D6968 /* SwiftStaticLibrary.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = B3BA13A61CC363DD003D6968 /* SwiftStaticLibrary.xcscheme */; };
 		B3BA13AA1CC363DD003D6968 /* DAFSwiftStaticLibrary.mm in Sources */ = {isa = PBXBuildFile; fileRef = B3BA13A91CC363DD003D6968 /* DAFSwiftStaticLibrary.mm */; };
 		B3CCF4A51CCA22B800D2DE57 /* DevToolsCore in Frameworks */ = {isa = PBXBuildFile; fileRef = B3CCF4A41CCA22B800D2DE57 /* DevToolsCore */; };
 /* End PBXBuildFile section */
@@ -19,7 +18,6 @@
 		B3BA139D1CC363DD003D6968 /* SwiftStaticLibrary.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftStaticLibrary.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3BA13A01CC363DD003D6968 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		B3BA13A21CC363DD003D6968 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		B3BA13A61CC363DD003D6968 /* SwiftStaticLibrary.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = SwiftStaticLibrary.xcscheme; path = SwiftStaticLibrary.xcodeproj/xcshareddata/xcschemes/SwiftStaticLibrary.xcscheme; sourceTree = SOURCE_ROOT; };
 		B3BA13A81CC363DD003D6968 /* DAFSwiftStaticLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DAFSwiftStaticLibrary.h; sourceTree = "<group>"; };
 		B3BA13A91CC363DD003D6968 /* DAFSwiftStaticLibrary.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = DAFSwiftStaticLibrary.mm; sourceTree = "<group>"; };
 		B3BA13AE1CC363DD003D6968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -74,7 +72,6 @@
 				B3BA13A81CC363DD003D6968 /* DAFSwiftStaticLibrary.h */,
 				B3BA13A91CC363DD003D6968 /* DAFSwiftStaticLibrary.mm */,
 				B3148CB31CC369C700DD821E /* SwiftStaticLibrary.pch */,
-				B3BA13A61CC363DD003D6968 /* SwiftStaticLibrary.xcscheme */,
 			);
 			path = SwiftStaticLibrary;
 			sourceTree = "<group>";
@@ -135,7 +132,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3BA13A71CC363DD003D6968 /* SwiftStaticLibrary.xcscheme in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
